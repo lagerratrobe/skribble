@@ -1,0 +1,16 @@
+# land.map
+
+LAYER
+   TYPE POLYGON
+   STATUS DEFAULT
+   DEBUG 1
+   NAME "land"
+   DATA "world_mercator"
+   CLASS
+       STYLE
+           COLOR 244 244 232
+           WIDTH 1.10
+       END
+   END
+END
+

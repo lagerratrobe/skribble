@@ -1,0 +1,15 @@
+# admin1.map
+
+LAYER
+   TYPE LINE
+   STATUS DEFAULT
+   DEBUG 1
+   NAME "admin1"
+   DATA "ne_10m_admin1_lines_merc"
+   CLASS
+       STYLE
+           COLOR 200 200 200
+       END
+   END
+END
+

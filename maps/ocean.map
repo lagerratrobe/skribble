@@ -1,0 +1,15 @@
+# ocean.map
+
+LAYER
+   TYPE POLYGON
+   STATUS DEFAULT
+   DEBUG 1
+   NAME "ocean"
+   DATA "ocean_canvas_merc"
+   CLASS
+       STYLE
+           COLOR 205 222 224
+           OUTLINECOLOR 205 222 224
+       END
+   END
+END

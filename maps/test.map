@@ -1,0 +1,45 @@
+#test.map
+
+MAP
+  FONTSET "fonts.list"  # defines the location of the font specification
+  MAXSIZE 4000
+  SIZE 1200 1000
+  IMAGETYPE png
+  TRANSPARENT TRUE
+
+  # DEFINES THE PROJECTION OF THE RENDERED IMAGE
+  PROJECTION
+    "init=epsg:3857"
+  END
+
+  # EXTENT OF THE MAP IMAGE THAT WILL BE DISPLAYED
+  EXTENT -13888494.2287714 2814658.03083295 -7452825.02105463 6275273.843228 # USA
+  UNITS meters
+
+  # WHAT DIRECTORY THE SHAPEFILES LIVE IN
+  SHAPEPATH "../../data/sample"
+
+  # METADATA USED WHEN ACCESING VIA WMS OR OTHER SERVICE TYPES
+  WEB
+     METADATA
+      "ows_enable_request" "*"
+      "wms_srs" "EPSG:900913 EPSG:4326 EPSG:3857"
+      "labelcache_map_edge_buffer" "-10"
+      "wms_title" "tableau gray"
+     END
+     IMAGEPATH "/tmp/ms_tmp/"
+     IMAGEURL "/ms_tmp/"
+  END
+
+  DEBUG 1
+  CONFIG "MS_ERRORFILE" "stderr"
+
+## LAYER INCLUDES BELOW ##
+  INCLUDE 'ocean.map'
+  INCLUDE 'land.map'
+  INCLUDE 'admin1.map'
+  INCLUDE 'admin0.map'
+  INCLUDE 'state_labels.map'
+  INCLUDE 'country_labels.map'
+  
+END

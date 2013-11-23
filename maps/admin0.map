@@ -1,0 +1,16 @@
+# admin0.map
+
+LAYER
+   TYPE LINE
+   STATUS DEFAULT
+   DEBUG 1
+   NAME "admin0"
+   DATA "world_mercator.shp"
+   CLASS
+       STYLE
+           COLOR 178 178 178
+           WIDTH 1.5
+       END
+   END
+END
+

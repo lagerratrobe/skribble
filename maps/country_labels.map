@@ -1,0 +1,32 @@
+# country_labels
+
+  LAYER
+
+    NAME 'country_labels'
+    TYPE ANNOTATION
+    STATUS DEFAULT
+
+    METADATA
+      "wms_format" "PNG"
+      "wms_transparent" "TRUE"
+    END
+
+    DATA "country_labels_merc"
+
+    LABELITEM "en_us"
+
+    CLASS
+     LABEL
+       TYPE truetype
+       FONT "deja"
+       SIZE 14
+       OUTLINECOLOR 255 255 255
+       COLOR 100 100 100
+       POSITION UC
+       OFFSET 0 4
+       ANGLE 0
+       PARTIALS TRUE
+     END # end label
+    END
+
+  END

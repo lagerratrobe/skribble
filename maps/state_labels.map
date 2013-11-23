@@ -1,0 +1,33 @@
+# state_labels
+
+  LAYER
+
+    NAME 'state_labels'
+    TYPE ANNOTATION
+    STATUS DEFAULT
+
+    METADATA
+      "wms_format" "PNG"
+      "wms_transparent" "TRUE"
+    END
+
+    DATA "state_labels_merc"
+
+    LABELITEM "en_us"
+
+    CLASS
+     LABEL
+       TYPE truetype
+       FONT "deja-bold"
+       SIZE 10
+       OUTLINECOLOR 255 255 255
+       COLOR 178 178 178
+       POSITION UC
+       OFFSET 0 4
+       ANGLE 0
+       PARTIALS TRUE
+       FORCE true
+     END # end label
+    END
+
+  END
