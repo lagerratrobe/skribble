@@ -1,2 +1,2 @@
-deja			../../fonts/DejaVuSansCondensed.ttf
-deja-bold		../../fonts/DejaVuSansCondensed-Bold.ttf
+deja			../fonts/DejaVuSansCondensed.ttf
+deja-bold		../fonts/DejaVuSansCondensed-Bold.ttf

@@ -3,7 +3,7 @@
 MAP
   FONTSET "fonts.list"  # defines the location of the font specification
   MAXSIZE 4000
-  SIZE 1200 1000
+  SIZE 1200 600
   IMAGETYPE png
   TRANSPARENT TRUE
 
@@ -17,7 +17,7 @@ MAP
   UNITS meters
 
   # WHAT DIRECTORY THE SHAPEFILES LIVE IN
-  SHAPEPATH "../../data/sample"
+  SHAPEPATH "../data"
 
   # METADATA USED WHEN ACCESING VIA WMS OR OTHER SERVICE TYPES
   WEB
